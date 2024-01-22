@@ -3,13 +3,19 @@ import LoginExample from './component/LoginExample';
 import Map from './component/MapExample';
 import Header from './component/header';
 
-const App = () => {
+
+
+
+
+  const App = () => {
+   
   return (
     <div>
-      <Header />
+      {/* <Header />
       <Content />
-      <Map />
-      <LoginExample />
+      <Map /> */}
+      <LoginExample/>
+      
     </div>
   );
 };
