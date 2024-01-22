@@ -1,4 +1,5 @@
 import Content from './component/Content';
+import FormExample from './component/FormExample';
 import LoginExample from './component/LoginExample';
 import Map from './component/MapExample';
 import Header from './component/header';
@@ -15,6 +16,7 @@ import Header from './component/header';
       <Content />
       <Map /> */}
       <LoginExample/>
+      <FormExample/>
       
     </div>
   );
