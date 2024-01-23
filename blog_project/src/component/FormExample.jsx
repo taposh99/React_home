@@ -1,25 +1,24 @@
-
-
 const FormExample = () => {
-    const PostFormData = (event)=>{
+  const PostFormData = (event) => {
+    event.preventDefault();
 
+    alert("Form Submited");
+  };
+  return (
+    <div>
+      <form action="" onSubmit={PostFormData}>
+        <input type="text" placeholder="name" /> <br />
+        <input type="email" placeholder="email" /> <br />
+        <input type="text" placeholder="phone number" /> <br />
+        <input type="text" placeholder="address" /> <br />
+        <button type="submit">Submit</button>
+      </form>
 
-        event.preventDefault();
+     
 
-        alert('Form Submited')
-
-    }
-    return (
-        <div>
-            <form action="" onSubmit={PostFormData}>
-
-                <input type="text" placeholder='name' />
-                <button type='submit'>Submit</button>
-            </form>
-
-            
-        </div>
-    );
+      
+    </div>
+  );
 };
 
 export default FormExample;
