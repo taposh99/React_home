@@ -3,6 +3,9 @@ import FormExample from './component/FormExample';
 import LoginExample from './component/LoginExample';
 import Map from './component/MapExample';
 import Header from './component/header';
+import Button from './component/ButtonEx';
+import StateExample from './component/StateExample';
+import UseRef from './component/UseRef';
 
 
 
@@ -17,6 +20,10 @@ import Header from './component/header';
       <Map /> */}
       <LoginExample/>
       <FormExample/>
+      <Button />
+      <StateExample />
+      
+      <UseRef />
       
     </div>
   );
