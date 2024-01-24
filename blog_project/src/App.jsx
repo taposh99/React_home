@@ -6,6 +6,7 @@ import Header from './component/header';
 import Button from './component/ButtonEx';
 import StateExample from './component/StateExample';
 import UseRef from './component/UseRef';
+import UseRefAttribute from './component/UseRefAttribute';
 
 
 
@@ -24,6 +25,9 @@ import UseRef from './component/UseRef';
       <StateExample />
       
       <UseRef />
+      <UseRefAttribute />
+      
+  
       
     </div>
   );
